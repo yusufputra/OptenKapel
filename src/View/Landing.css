@@ -1,0 +1,52 @@
+section.landing {
+    height: 50vh;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    color: white;
+    border-bottom: 2px solid white;
+    text-align: left;
+  }
+  section#first {
+    height: 100vh;
+    text-align:center;
+  }
+
+  section#first .overlay {
+    padding: 30vh 15vh;
+  }
+
+  section#first h1 {
+    font-size: 96px;
+  }
+
+  section.landing p {
+    margin-bottom: 1em;
+  }
+
+  section.landing button {
+    margin: 0 1em;
+  }
+
+  section.timeline button:first-of-type {
+    margin: 0 1em 0 0;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15vh 15vh;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 24px;
+    margin:0;
+  }
